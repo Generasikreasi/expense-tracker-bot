@@ -27,7 +27,7 @@ creds_dict = json.loads(creds_json)
 creds = ServiceAccountCredentials.from_json_keyfile_dict(
     creds_dict),
     scope
-
+)
 
 
 client = gspread.authorize(creds)
@@ -96,6 +96,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
