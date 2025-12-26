@@ -11,7 +11,7 @@ from telegram.ext import (
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("7983593201:AAEGpAaGoRV-icQ4xBYArw8tiDpJ_-ENjYo")
 SPREADSHEET_ID = os.environ.get("https://docs.google.com/spreadsheets/d/1KP1q0CT1JudlYfM-CE1C7ue99QDWBJT5L_7ybIQleEc/edit?gid=842381517#gid=842381517")
 
 scope = [
@@ -90,4 +90,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
